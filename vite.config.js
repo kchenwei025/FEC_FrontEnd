@@ -12,10 +12,13 @@ export default {
   },
   cacheDir: "../node_modules/.vite",
 
-  build: {
+build: {
   rollupOptions: {
-    external: ['react-router-dom'],
+    external: ['react-router-dom', '@fortawesome/react-fontawesome'],
   },
+  // other build options
+}
+
   // other build options
 }
 
