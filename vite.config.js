@@ -2,6 +2,8 @@ import dotenv from "dotenv";
 
 dotenv.config({ path: "../.env" });
 
+
+
 export default {
   server: {
     proxy: {
@@ -9,4 +11,12 @@ export default {
     },
   },
   cacheDir: "../node_modules/.vite",
+
+  build: {
+  rollupOptions: {
+    external: ['react-router-dom'],
+  },
+  // other build options
+}
+
 };
