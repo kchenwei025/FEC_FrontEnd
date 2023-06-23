@@ -19,7 +19,4 @@ build: {
   // other build options
 }
 
-  // other build options
 }
-
-};
