@@ -14,7 +14,7 @@ export default {
 
 build: {
   rollupOptions: {
-    external: ['react-router-dom', '@fortawesome/react-fontawesome'],
+    external: ['react-router-dom', '@fortawesome/react-fontawesome',   "react-icons/fa",],
   },
   // other build options
 }
