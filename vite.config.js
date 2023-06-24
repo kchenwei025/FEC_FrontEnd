@@ -9,4 +9,15 @@ export default {
     },
   },
   cacheDir: "../node_modules/.vite",
+
+  build: {
+    rollupOptions: {
+      external: [
+        "react-router-dom",
+        "@fortawesome/react-fontawesome",
+        "react-icons/fa",
+      ],
+    },
+    // other build options
+  },
 };

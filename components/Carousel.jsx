@@ -9,7 +9,7 @@ const Carousel = () => {
             <img
               src="./pics/carousel1.png"
               className="d-block w-100"
-              alt="..."
+              alt="carousel1"
             />
           </div>
           <div className="carousel-item">
