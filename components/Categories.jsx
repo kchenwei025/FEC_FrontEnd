@@ -14,7 +14,7 @@ const Categories = () => {
       case 0:
         return (
           <a href="https://www.homedepot.com/p/Milwaukee-M18-18-Volt-Lithium-Ion-High-Output-Starter-Kit-with-Two-6-0-Ah-Battery-and-Charger-48-59-1862S/315426486">
-            <img src="./pics/Top picks.png" alt="Top Picks" />
+            <img src="/pics/Top picks.png" alt="Top Picks" />
           </a>
         );
       case 1:

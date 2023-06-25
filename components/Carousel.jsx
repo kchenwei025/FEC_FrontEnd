@@ -8,7 +8,7 @@ const Carousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="./pics/carousel1.png"
+              src="/pics/carousel1.png"
               className="d-block w-100"
               alt="..."
             />
