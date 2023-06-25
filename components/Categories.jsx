@@ -7,6 +7,77 @@ const Categories = () => {
     setActiveButton(value);
   };
 
+
+
+  const renderContent = () => {
+    switch (activeButton) {
+      case 0:
+        return (
+          <a href="https://www.homedepot.com/p/Milwaukee-M18-18-Volt-Lithium-Ion-High-Output-Starter-Kit-with-Two-6-0-Ah-Battery-and-Charger-48-59-1862S/315426486">
+            <img src="./pics/Top picks.png" alt="Top Picks" />
+          </a>
+        );
+      case 1:
+        return (
+          <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+            <img src="./pics/Appliances.png" alt="..." />
+          </a>
+        );
+      case 2:
+        return  (
+          <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+            <img src="./pics/Tools.png" alt="..." />
+          </a>
+        );
+      case 3:
+      return (
+        <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+        <img src="./pics/Outdoor.png" alt="..." />
+      </a>
+        );
+        case 4:
+          return (
+            <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+            <img src="./pics/Grills.png" alt="..." />
+          </a>
+          );
+          case 5:
+            return (
+              <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+                  <img src="./pics/Patio.png" alt="..." />
+                </a>
+            );
+            case 6:
+              return (
+                <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+                    <img src="./pics/Lawn.png" alt="..." />
+                  </a>
+              );
+              case 7:
+                return (
+                  <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+                  <img src="./pics/Paint.png" alt="..." />
+                </a>
+                );
+            
+                   case 8:
+                return (
+                  <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+                      <img src="./pics/Ceiling.png" alt="..." />
+                    </a>
+                );
+                case 9:
+                  return (
+                    <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+                      <img src="./pics/Cleaning.png" alt="..." />
+                    </a>
+                  );
+              
+      default:
+        return null;
+    }
+  };
+
   return (
     <>
       <div className="categories" style={{ border: "none", marginTop: "20px" }}>
@@ -99,31 +170,9 @@ const Categories = () => {
           Cleaning
         </button>
       </div>
-      <div>
-        {" "}
-        <img src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/promotion.svg" />
-        <img
-          src="https://images.thdstatic.com/productImages/3b9bfd39-5c97-41e6-ba34-40932b14a2b6/svn/milwaukee-power-tool-batteries-48-59-1862s-64_300.jpg"
-          alt="M18 18-Volt Lithium-Ion High Output Starter Kit with Two 6.0 Ah Battery and Charger"
-          class="stretchy"
-          title="M18 18-Volt Lithium-Ion High Output Starter Kit with Two 6.0 Ah Battery and Charger"
-          height="150"
-          width="150"
-          loading="lazy"
-          border="1px solid black"
-        ></img>
-        <img
-          src="https://images.thdstatic.com/productImages/00b23abf-eec5-4bf5-a4e0-d8cabd365bd0/svn/ryobi-cordless-string-trimmers-ry40250-64_300.jpg"
-          alt="40V Expand-It Cordless Battery Attachment Capable String Trimmer with 4.0 Ah Battery and Charger"
-          class="stretchy"
-          title="40V Expand-It Cordless Battery Attachment Capable String Trimmer with 4.0 Ah Battery and Charger"
-          height="150"
-          width="150"
-          loading="lazy"
-          border="1px solid black"
-        ></img>
-      </div>
-      Shop All Top Picks
+      <div className="ctab">{renderContent()}</div>
+
+  
     </>
   );
 };

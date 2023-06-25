@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite serve",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build"
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
