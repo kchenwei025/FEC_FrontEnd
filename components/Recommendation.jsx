@@ -7,7 +7,7 @@ const Recommendation = () => {
   const totalPages = Math.ceil(items.length / itemsPerPage);
 
   useEffect(() => {
-    fetch(`http://localhost:8000/item`)
+    fetch(`https://fec-backend.onrender.com/item`)
       .then((response) => response.json())
       .then((data) => {
         setItems(data.slice(0, 100)); // Limit the items to the first 100
