@@ -7,8 +7,6 @@ const Categories = () => {
     setActiveButton(value);
   };
 
-
-
   const renderContent = () => {
     switch (activeButton) {
       case 0:
@@ -24,55 +22,55 @@ const Categories = () => {
           </a>
         );
       case 2:
-        return  (
+        return (
           <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
             <img src="./pics/Tools.png" alt="..." />
           </a>
         );
       case 3:
-      return (
-        <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
-        <img src="./pics/Outdoor.png" alt="..." />
-      </a>
+        return (
+          <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+            <img src="./pics/Outdoor.png" alt="..." />
+          </a>
         );
-        case 4:
-          return (
-            <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+      case 4:
+        return (
+          <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
             <img src="./pics/Grills.png" alt="..." />
           </a>
-          );
-          case 5:
-            return (
-              <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
-                  <img src="./pics/Patio.png" alt="..." />
-                </a>
-            );
-            case 6:
-              return (
-                <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
-                    <img src="./pics/Lawn.png" alt="..." />
-                  </a>
-              );
-              case 7:
-                return (
-                  <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
-                  <img src="./pics/Paint.png" alt="..." />
-                </a>
-                );
-            
-                   case 8:
-                return (
-                  <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
-                      <img src="./pics/Ceiling.png" alt="..." />
-                    </a>
-                );
-                case 9:
-                  return (
-                    <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
-                      <img src="./pics/Cleaning.png" alt="..." />
-                    </a>
-                  );
-              
+        );
+      case 5:
+        return (
+          <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+            <img src="./pics/Patio.png" alt="..." />
+          </a>
+        );
+      case 6:
+        return (
+          <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+            <img src="./pics/Lawn.png" alt="..." />
+          </a>
+        );
+      case 7:
+        return (
+          <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+            <img src="./pics/Paint.png" alt="..." />
+          </a>
+        );
+
+      case 8:
+        return (
+          <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+            <img src="./pics/Ceiling.png" alt="..." />
+          </a>
+        );
+      case 9:
+        return (
+          <a href="https://www.homedepot.com/p/GE-Profile-Profile-27-9-cu-ft-Smart-4-Door-French-Door-Refrigerator-with-Door-in-Door-in-Fingerprint-Resistant-Stainless-Steel-PVD28BYNFS/311411352">
+            <img src="./pics/Cleaning.png" alt="..." />
+          </a>
+        );
+
       default:
         return null;
     }
@@ -171,8 +169,6 @@ const Categories = () => {
         </button>
       </div>
       <div className="ctab">{renderContent()}</div>
-
-  
     </>
   );
 };

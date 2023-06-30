@@ -445,7 +445,67 @@ text-decoration: none;
   padding: 16px;
   border: 1px solid gray;
   height: 450px;
+  position: relative;
 }
+.card3-title{
+  
+  text-align: left;
+  padding-left: 1px;
+}
+.card3-sub-header{
+  text-align: left;
+  padding-right: 10px;
+}
+.card3-logo{
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  width: 5px; /* Adjust the width as desired */
+  height: 5px;
+
+}
+
+.clock-icon {
+  width: 16px; /* Adjust the width to your desired size */
+  height: 16px; /* Adjust the height to your desired size */
+  vertical-align: middle; /* Align the icon vertically in the middle */
+}
+.clock-text {
+  font-weight: bold;
+  color: #f96302;
+  text-align: left;
+  margin-top: 5px; 
+  margin-bottom: 5px;
+}
+.card3-body {
+  display: flex;
+ 
+}
+
+.sink-item {
+  flex: 0 0 33.33%; /* Adjust the width based on the number of images you want in a row */
+  padding: 5px; /* Adjust the padding between images */
+  box-sizing: border-box;
+}
+
+.card3-img {
+  margin-top: 3px;
+  width: 130px;
+  height: 170px;
+  display: block;
+  justify-content: space-between;
+
+ 
+}
+
+.image-caption {
+  justify-content: space-between;
+  color: black;
+  font-size: small;
+  text-align: center;
+  margin-top: 5px; /* Adjust the margin-top to your desired spacing */
+}
+
 .card3-button{
   margin-top: 10px;
   font-size: 15px;
@@ -754,8 +814,14 @@ text-decoration: none;
   text-align: left;
   color:black;
 }
-.g2-hours-title{
-  float: right;
+
+
+.g2-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .g2-change-store{
@@ -774,7 +840,7 @@ text-decoration: none;
 }
 
 .g2-card3-button{
-  margin-top: 10px;
+  margin-top: 35px;
   font-size: 15px;
   display: block;
   width: 400px;
@@ -823,7 +889,7 @@ text-decoration: none;
   margin-top: 20px;
   background-color: white;
   border: 1px solid gray ;
-  width: 1600px;
+ 
   height: 400px;
   padding: 1.5rem;
 }
@@ -860,6 +926,68 @@ text-decoration: none;
 }
 
 
+/* Footer Css*/
 
+.topline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(198, 198, 198);
+}
+
+.alignleft {
+  text-align: left;
+  margin-right: auto;
+}
+
+.alignright {
+  text-align: right;
+  margin-left: auto;
+}
+
+.column {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  background-color: white;
+  padding: 10px;
+}
+
+.customerService {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.financing {
+  background-color: #ffffff;
+  display: inline;
+  padding: 5px 10px;
+}
+
+
+.email-signup {
+  margin-top: 20px;
+  color: black;
+  background-color: white;
+}
+
+.email-signup p {
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.email-signup input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.email-signup button {
+  padding: 5px 10px;
+}
+
+.footerimage{
+  background-color: white;
+}
 
 

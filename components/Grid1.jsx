@@ -46,24 +46,20 @@ const Grid1 = (props) => {
     <section>
       <div class="Card-3-top">
          <h3 class="card3-title">Up to 45% off Select Bathroom Vanities, Fixtures & Accents</h3> 
+         {/* <div class="card3-logo">
+          <img src="./pics/specialbuylogo.png" class="card3-right-logo" alt="special buy badge" />
+         </div> */}
          <div>
          <p class="card3-sub-header">Today Only! Free Delivery</p>
          </div>
-         <div class="card3-logo">
-          <img src="https://assets.thdstatic.com/images/v1/sbotd-logo.png" class="card3-right-logo" alt="special buy badge" />
-         </div>
        </div>  
   </section>
-  <svg class="clock-icon" viewBox="0 0 24 24" focusable="false" aria-hidden="true" data-testid="ClockIcon">
-  <path d="M13.125 11.46V5.25h-2.25v7.29l5.05 4.041 1.406-1.757-4.206-3.365Z"></path>
-  <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0ZM2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Z"></path>
-  </svg>
- <div className="clock-text">
+   <div className="clock-text">
       Ends in 
       13hr 22min 41secs 
   </div>
   <div class="card3-body">
-    <a href="bathroomsinks">
+    <a href="">
       <div class="sink-item">
      <img src="https://images.thdstatic.com/productImages/a6a3defc-88b3-4cc4-9cff-548dacf62348/svn/home-decorators-collection-bathroom-vanities-with-tops-sonoma-72c-64_400.jpg" class="card3-img" alt="..."/>
      </div>
@@ -82,11 +78,11 @@ const Grid1 = (props) => {
      </div>
      <span class="image-caption">Bathroom Flooring & Accents (28)</span>
      </a>
+     </div>
      <div>
      <button className="card3-button" onClick= {Button}
       >Shop Today's Specials</button>
       </div>
-     </div>
   </div>
 </div>
 </main>
