@@ -1,0 +1,53 @@
+icon_mobile src="https://dam.thdstatic.com/content/production/6c1g0KyjiIZpfb0kQFd6kQ/0hofRJNbcEoigyhFUvgZqg/Original%20file/app-thd-capabilities.svg"
+icon_tool src="https://images.ctfassets.net/7rldri896b2a/017C54e7KPq8SfQUzzII1f/2d8a309c8505cd7d4c1f3bd2d1622a09/Saw.svg"
+icon_curbside src="https://images.ctfassets.net/7rldri896b2a/1XkXVWTsTd3aH9y5RUuTca/a2b327f874f222904052e643dc277a51/curbsideOrangeOutline.svg"
+icon_delivery src="https://images.ctfassets.net/7rldri896b2a/6xZOd23eoWyYSQPtGe5CjX/83edf56ad3417fbf8442d01a05f94872/delivery.svg"
+
+icon_fathersday src="https://images.ctfassets.net/7rldri896b2a/6HJ9kQgqZpiVnHjvcBmN0Q/74f1b6215621a961fb92e98e3632d68d/fathersday-sbc.svg" 
+icon_applicances src="https://images.ctfassets.net/7rldri896b2a/6Gr9Ru4lOd1iTP32vlGEbh/b04979fa4f12ceb846ca4e484ab93cd3/hp-sbc-appliances.svg" 
+icon_bath src="https://images.ctfassets.net/7rldri896b2a/HrBPRwD99561CDruowFXc/7ca53f693e6dfe9edd3b4fb21fbea6fb/hp-sbc-bath-faucets.svg" 
+icon_building_materials src="https://images.ctfassets.net/7rldri896b2a/kR4CltmJ0kXv4V1b7mxlk/ff3ab0811bf096ed3316a6e06f588985/hp-sbc-building-materials.svg" 
+icon_decor src="https://images.ctfassets.net/7rldri896b2a/5ZUQWG4zreD8UnmgAmxx4v/c267ab908c070f2f418fc64fd2ed4a05/hp-sbc-decor-furniture.svg" 
+icon_doors src="https://images.ctfassets.net/7rldri896b2a/7KblIOWidIclcMQUW16BqL/187437f99503036a6aa73a3f3456e18e/hp-sbc-doors-windows.svg" 
+icon_electrical src="https://images.ctfassets.net/7rldri896b2a/7JHzWuMRKuPWMAFLnn8JVC/82d63ee6e8817533adcd030545bb2a4b/hp-sbc-electrical.svg" 
+icon_flooring src="https://images.ctfassets.net/7rldri896b2a/1ViWChlbaoKlp58UIjAuwX/88d00fbf0735d2647ebf3888f4f37028/hp-sbc-flooring-area-rugs.svg" 
+icon_hardware src="https://images.ctfassets.net/7rldri896b2a/5KzoRfLFKhwlh34nBYfJiI/8edfa416a754dcfaf020b04e46afe336/hp-sbc-hardware.svg" 
+icon_heating src="https://images.ctfassets.net/7rldri896b2a/12dLpMx5xEXoXPLYtYw8LF/13d3180c8b8adf435b25319f514fd906/hp-sbc-heating-cooling.svg" 
+icon_kitchen src="https://images.ctfassets.net/7rldri896b2a/7tE1MZQJGM8FBBSJ39TYiZ/998c16bae92be1deefa4dd23c6899839/hp-sbc-kitchen.svg"  
+icon_lawn src="https://images.ctfassets.net/7rldri896b2a/6ws31LTOeVhdoHSUBeG8np/599cf02267ca7a7e2aaad6d61100fae6/hp-sbc-lawn-garden.svg" 
+icon_lighting src="https://images.ctfassets.net/7rldri896b2a/7Ic0OBtIg3CUTR42KGkrK4/b58f87617b260df587d6c39839440fa5/hp-sbc-lighting-ceiling-fans.svg" 
+icon_outdoor  src="https://images.ctfassets.net/7rldri896b2a/4i1CRTQDbYLoJuFCl5Pjhf/fbe63b73072d2f0177ad903aa01dee22/hp-sbc-outdoor-living.svg" 
+icon_paint src="https://images.ctfassets.net/7rldri896b2a/75QlJGsr891toYs3h0ILQ4/fc60aeaac0b5df73f4dfd94b041685d9/hp-sbc-paint.svg"
+icon_plumbing  src="https://images.ctfassets.net/7rldri896b2a/67uaBujXAomlKlG307Gv5b/e1aa844b042a42a083265418b5d23a1a/hp-sbc-plumbing.svg" 
+icon_storage src="https://images.ctfassets.net/7rldri896b2a/3utYv0S5TEJxoJGCGvVBxv/1c0ae0ccee93042b6464d16472396bf1/hp-sbc-storage-organization.svg" 
+icon_tools src="https://images.ctfassets.net/7rldri896b2a/68CVbwhQgoBmpBoM1sepO2/9749877e48885ab929b122af9f4bd3d5/hp-sbc-tools.svg"
+
+installation src="https://assets.thdstatic.com/images/v1/home-services/personalized-home-services/php_professionalInstallation_services.jpg" 
+creditcard src="https://assets.thdstatic.com/images/v1/plcc-credit-card.png"
+
+icon_shop_all src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/promotion.svg"
+icon_shop_all_tools src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/04-Tools.svg"
+icon_shop_all_outdoor src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/02-Outdoor-Power-Equipment.svg"
+icon_shop_all_grills src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/05-Grills.svg" 
+icon_shop_all_appliances src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/05-Grills.svg" 
+icon_shop_all_smarthome src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/05-Grills.svg"
+icon_shop_all_ladders src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Brands/Interline/Ladders-Scaffolding.svg"
+icon_shop_all_paint src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/12-Paint.svg" 
+icon_shop_all_patio src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/03-Patio.svg"
+icon_shop_all_storage src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Brands/Interline/Storage.svg"
+icon_shop_all_cleaning src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/L1-Cleaning.svg" 
+
+
+
+icon_categories_topPicks src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/promotion.svg"
+
+
+
+
+
+
+
+
+
+
+

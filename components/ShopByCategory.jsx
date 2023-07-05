@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const ShopByCategory = () => {
   return (
-    <main>
+    <main className="shop-cat-main">
       <p className="ShopByCategory-title">Shop By Category</p>
       <div className="ShopByCategory-container text-center">
         <div className="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">

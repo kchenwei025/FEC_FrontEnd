@@ -5,7 +5,7 @@ const CurrPromotion = () => {
   return (
     <div className="CurrPromotion">
       <a href="#" className="CurrPromotion-text">
-        FATHER'S DAY IS JUNE 18TH. Gifts for Dad. Shop Now <FaChevronRight />
+      DO 4TH OF JULY UP BIG Savings for the Summer. Shop Now. <FaChevronRight />
       </a>
     </div>
   );

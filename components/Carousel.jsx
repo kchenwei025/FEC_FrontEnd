@@ -3,13 +3,14 @@ import React, { useEffect, useState } from "react";
 const Carousel = () => {
   return (
     <main>
+      
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="./pics/carousel1.png"
+              src="/pics/carousel1.png"
               className="d-block w-100"
-              alt="carousel1"
+              alt="..."
             />
           </div>
           <div className="carousel-item">
