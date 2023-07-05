@@ -1,6 +1,4 @@
-import dotenv from "dotenv";
 
-dotenv.config({ path: "../.env" });
 
 export default {
   server: {
@@ -9,4 +7,6 @@ export default {
     },
   },
   cacheDir: "../node_modules/.vite",
+
+
 };
